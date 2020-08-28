@@ -1,0 +1,16 @@
+[
+  {
+    "name": "layout",
+    "path": "/layout",
+    "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\layout\\\\index.vue",
+    "chunkName": "pages/layout/index",
+    "_name": "_35296112"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3ef2e7fc"
+  }
+]
