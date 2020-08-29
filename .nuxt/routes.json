@@ -1,16 +1,51 @@
 [
   {
-    "name": "layout",
-    "path": "/layout",
-    "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\layout\\\\index.vue",
-    "chunkName": "pages/layout/index",
-    "_name": "_35296112"
-  },
-  {
-    "name": "index",
     "path": "/",
-    "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3ef2e7fc"
+    "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\home",
+        "_name": "_26e67c0d"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_93bd640a"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_93bd640a"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\profile",
+        "_name": "_e7a6e88a"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\settings",
+        "_name": "_eab6075e"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\editor",
+        "_name": "_017c951b"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "E:\\\\webKaiFa\\\\vue框架\\\\realworld-nuxtjs\\\\pages\\\\article",
+        "_name": "_72f6cf08"
+      }
+    ],
+    "_name": "_0d4b6ed8"
   }
 ]
